@@ -16,7 +16,7 @@ permissions:
 
 env:
   # ⚡ 目标索引仓库（NapNeko 组织下的插件索引）
-  INDEX_REPO: Sakurakilove/napcat-plugin-index
+  INDEX_REPO: NapNeko/napcat-plugin-index
   INDEX_REPO_NAME: napcat-plugin-index
   INDEX_BRANCH: main
   INDEX_FILE: plugins.v4.json
