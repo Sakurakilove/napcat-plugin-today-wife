@@ -4,11 +4,18 @@
     "description": "群聊互动插件 - 发送'今日老婆'随机抽取群成员作为今日老婆，支持每日记录和头像展示",
     "author": "Sakurakilove",
     "type": "module",
-    "main": "dist/index.mjs",
+    "main": "index.mjs",
     "plugin": "今日老婆",
     "napcat": {
-        "tags": ["娱乐", "群聊"],
+        "tags": [
+            "娱乐",
+            "群聊"
+        ],
         "minVersion": "4.14.0",
         "homepage": "https://github.com/Sakurakilove/napcat-plugin-today-wife"
+    },
+    "devDependencies": {
+        "@types/node": "^25.2.3",
+        "typescript": "^5.9.3"
     }
 }
